@@ -19,6 +19,7 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
+.editorconfig
 
 # Visual Studio Code
 .vscode/*
@@ -40,3 +41,13 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+#Angular
+/.angular
+.angular/*
+app.module.ts
+
+#TypeScript
+tsconfig.app.json
+tsconfig.spec.json
+tsconfig.json
